@@ -15,4 +15,3 @@ Thumbs.db  # (لنظام Windows)
 
 # ملفات بايثون المترجمة
 __pycache__/
-*.py[cod]
