@@ -45,11 +45,6 @@ test = getInput()
 st.dataframe(test)
 
 # Load the model
-# with open('model.pickle', 'rb') as f:
-#     model = pickle.load(f)
-# transformers=[
-#     ('be', BinaryEncoder(), ['State']),
-#     ('scaler', StandardScaler(), ['Bed', 'Bath','Year', 'House_size(SqFt)'])]
 model = Pipeline(steps=[('columntransformer',
                  ColumnTransformer(remainder='passthrough',
                                    transformers=[('be', BinaryEncoder(),
