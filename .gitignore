@@ -1,0 +1,8 @@
+venv/
+.env
+
+*.joblib
+*.csv
+
+.vscode/
+.idea/
