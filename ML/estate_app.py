@@ -39,7 +39,7 @@ test = getInput()
 st.dataframe(test)
 
 # Load the model
-with open('/mount/src/usa_real_estate/ML/estate_app.pymodel.pickle', 'rb') as f:
+with open("mount/src/usa_real_estate/ML/estate_app.pymodel.pickle", 'rb') as f:
     model = pickle.load(f)
 
 # Predict price button
