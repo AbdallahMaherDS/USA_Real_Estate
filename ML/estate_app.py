@@ -39,7 +39,7 @@ test = getInput()
 st.dataframe(test)
 
 # Load the model
-model = joblib.load('dt.joblib')
+model = joblib.load('model.joblib')
 
 # Predict price button
 if st.button('Predict Price'):
