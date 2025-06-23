@@ -39,6 +39,7 @@ test = getInput()
 st.dataframe(test)
 
 # Load the model
+with open('model.joblib', 'rb') as f:
 model = joblib.load('model.joblib')
 
 # Predict price button
