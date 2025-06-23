@@ -43,5 +43,5 @@ model = joblib.load('dt.joblib')
 
 # Predict price button
 if st.button('Predict Price'):
-    prediction = model.predict(test)
-    st.write(f"### Predicted Price: ${prediction[0]}")
+   prediction = model.predict(test)
+   st.write(f"### Predicted Price: ${prediction[0]}")
